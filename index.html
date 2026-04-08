@@ -344,20 +344,10 @@
   <p class="rsvp-label reveal">YOUR PRESENCE</p>
   <h2 class="rsvp-title reveal">出席回复</h2>
   <p class="rsvp-text reveal">感谢您见证我们人生中最重要的时刻<br>请于百忙之中回复您的出席信息</p>
-  <form class="rsvp-form reveal" onsubmit="handleRSVP(event)">
-    <input type="text" placeholder="您的姓名" id="guestName" required>
-    <select id="attendance" required>
-      <option value="" disabled selected>是否出席</option>
-      <option value="yes">欣然出席 🎉</option>
-      <option value="maybe">可能出席</option>
-      <option value="no">遗憾缺席</option>
-    </select>
-    <input type="number" placeholder="出席人数" id="guestCount" min="1" max="10">
-    <input type="tel" placeholder="联系电话（选填）" id="guestPhone">
-    <input type="text" placeholder="祝福留言（选填）" id="guestMessage">
-    <button type="submit" class="rsvp-submit">提交回复</button>
-    <p class="rsvp-note" id="rsvpNote"></p>
-  </form>
+  <div class="reveal" style="text-align:center">
+    <a href="https://wj.qq.com/s2/26253126/9b69" target="_blank" style="display:inline-block;padding:1rem 2.5rem;background:var(--white);color:var(--sage-dark);border-radius:4px;font-family:'Noto Serif SC',serif;font-size:.9rem;letter-spacing:.3em;text-decoration:none;transition:all .3s;box-shadow:0 2px 12px rgba(0,0,0,.1)" onmouseover="this.style.background='var(--gold-light)'" onmouseout="this.style.background='var(--white)'">点击填写出席确认</a>
+    <p class="rsvp-note" style="margin-top:1rem">数据将保存到腾讯问卷，随时可查看统计</p>
+  </div>
 </section>
 <footer>
   <p class="footer-names">叶圣 &amp; 吴宇婷</p>
